@@ -78,18 +78,10 @@ function OktoWalletContainer() {
         </div>
       </div>
 
-      {/* Dark Mode Toggle */}
-      <button
-        onClick={() => setIsDark(!isDark)}
-        className="mb-4 p-2 rounded-full border"
-      >
-        Toggle Dark Mode
-      </button>
-
       <TabSelector isDark={isDark} />
 
-      <div className="flex flex-col items-center justify-center space-y-3">
-        <img src="/coinAssets.png" alt="" className="w-32" />
+      <div className="flex flex-col items-center h-full justify-center space-y-3">
+        {/* <img src="/coinAssets.png" alt="" className="w-32" /> */}
         <div className={`text-xl font-bold ${textStyle}`}>
           Your Crypto Lives here
         </div>
